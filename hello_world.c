@@ -2,8 +2,10 @@
 
 int main(void) {
 	printf("hello world");
-	int a = 1;
-	int b = 2;
+	
+	int a = 0;
+	int b = 0;
+	scanf("%d %d", &a, &b);
 	int c = a+b;
 	printf("%d", c);
 
